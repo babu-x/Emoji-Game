@@ -1,0 +1,76 @@
+/* Write your code here. */
+.nav-bar-container {
+  background-color: #ffffff33;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .nav-bar-container {
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  width: 55px;
+  height: 55px;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+.logo-name {
+  color: #fff;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 23px;
+}
+@media screen and (max-width: 768px) {
+  .logo-name {
+    font-size: 15px;
+  }
+  .logo {
+    margin-right: 2px;
+  }
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hide-score-container {
+  display: none;
+}
+.scores-des {
+  color: #fff;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .scores-des {
+    font-size: 15px;
+  }
+}
+.margin {
+  margin-right: 50px;
+}
+@media screen and (max-width: 768px) {
+  .margin {
+    margin-right: 18px;
+  }
+}
